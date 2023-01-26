@@ -1,6 +1,8 @@
 import React from "react";
 import { Column, Section, SectionTitle } from "../../styles/styles";
-import { SkillCard } from "./styles";
+import Hardskills from "./Hardskills";
+import Softskills from "./Softskills";
+import { SkillsContainer } from "./styles";
 
 
 function Skills() {
@@ -8,15 +10,13 @@ function Skills() {
         <Section>
             <Column>
                 <SectionTitle>
-                    <h2>About Me</h2>
-                    <h3>My resume</h3>
+                    <h2>Skills</h2>
+                    <h3>What am I good at?</h3>
                 </SectionTitle>
-                <Section>
-                    <SkillCard>
-                        <h3>Hard Skills</h3>
-                        
-                    </SkillCard>
-                </Section>
+                <SkillsContainer>
+                    <Hardskills/>
+                    <Softskills />
+                </SkillsContainer>
             </Column >
         </Section >
     );

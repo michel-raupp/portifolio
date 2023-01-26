@@ -57,14 +57,14 @@ export const SectionTitle = styled(Container)`
     align-items: center;
     h2{
         line-height: normal;
-        font-size: ${FontSizes.giraffe};
+        font-size: 36px;
         font-weight: 700;
     }
     h3{
-        margin-top: 10px;
+        margin-top: 15px;
         color: ${Colors.darkGrey};
         line-height: normal;
-        font-size: ${FontSizes.horse};
+        font-size: ${FontSizes.wolf};
         font-weight: 400;
     }
 `
