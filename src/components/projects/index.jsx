@@ -8,7 +8,7 @@ import Illustrations from "./content/Illustrations";
 
 const Projects = () => {
 
-    const [toggleState, setToggleState] = useState(3);
+    const [toggleState, setToggleState] = useState(0);
 
     const toggleTab = (index) => {
         setToggleState(index);
