@@ -4,12 +4,16 @@ import { Box, Colors, Container, FontSizes } from "../../styles/styles";
 export const ProjectsContainer = styled(Container)`
     grid-template-columns: repeat(3, 270px);
     justify-content: center;
-    column-gap: 1.8rem;
+    column-gap: 1.9rem;
+    margin-top: 50px;
 `
 
 export const ProjectsCard = styled(Box)`
     position: relative;
-    padding: 6rem 2rem 2rem 2.5rem;
+    justify-content: space-between;
+    padding: 1.5rem;
+    height: 224px;
+    width: 224px;
 
     .projects_icon{
         display: block;
@@ -22,7 +26,12 @@ export const ProjectsCard = styled(Box)`
         line-height: normal;
         font-size: ${FontSizes.wolf};
         font-weight: 600;
-        margin-bottom: 25px;
+    }
+
+    .technology-used{
+        width: 40px;
+        height: 40px;
+        bottom: 0;
     }
 
     .view-more{
@@ -32,6 +41,7 @@ export const ProjectsCard = styled(Box)`
         align-items: center;
         column-gap: 0.25rem;
         cursor: pointer;
+        transition: 0.5s;
 
         img{
             width: 20px;
@@ -39,12 +49,13 @@ export const ProjectsCard = styled(Box)`
             transition: 0.5s;
         }
     }
-    .view-more:hover img{
-            transform: translateX(00.25rem);
-        }
+    .view-more:hover{
+        transform: translateX(0.5rem);
+    }
 
 
     .projectsModal{
+        overflow-y:scroll;
         position: fixed;
         top: 0;
         right: 0;
@@ -56,17 +67,17 @@ export const ProjectsCard = styled(Box)`
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0 1rem;
+        padding: 1rem;
         opacity: 0;
         visibility: hidden;
         transition: 0.5s;
     }
 
     .projectsModal-content{
-        width: 500px;
+        width: 800px;
         position: relative;
         background-color: ${Colors.white};
-        padding: 4.5rem 2.5rem 2.5rem;
+        padding: 2.5rem;
         border-radius: 20px;
     }
 
@@ -89,7 +100,7 @@ export const ProjectsCard = styled(Box)`
         line-height: normal;
         font-size: ${FontSizes.wolf};
         font-weight: 600;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
 
     .projectsModal-description{

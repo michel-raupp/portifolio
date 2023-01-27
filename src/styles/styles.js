@@ -48,7 +48,7 @@ export const Coisas = styled(Column)`
         p{
             font-weight: 400;
             font-size: ${FontSizes.cat};
-            width: 550px;
+
         }    
 `
 
