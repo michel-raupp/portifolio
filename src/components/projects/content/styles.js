@@ -3,40 +3,93 @@ import { Colors, Column, Container, FontSizes } from "../../../styles/styles";
 
 
 export const Conteudo = styled(Column)`
-    gap: 15px;
-
-    hr{
-        width: 100%;
-        border: 1px solid ${Colors.grey};
-    }
-
     .illustrations-img{
-        img{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .instagram{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: ${Colors.white};
+            background-color: ${Colors.black};
+            text-align: center;
+            cursor: pointer;
+
+            img{
+                height: 20px;
+                width: 20px;
+                margin-left: 5px;
+            }
+
+            @media(max-width: 600px){
+                flex-direction: column;
+            }
+            
+            :hover{
+                transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                background: ${Colors.terciary};
+            }
+        }
+
+        img, .instagram{
             width: 200px;
             height: 200px;
-            background: blue;
+            
+            @media(max-width: 750px){
+                width: 150px;
+                height: 150px;
+            }
+
+            @media(max-width: 600px){
+                width: 100px;
+                height: 100px;
+                font-size: 12px;
+            }
+            @media(max-width: 390px){
+                width: 80px;
+                height: 80px;
+            }
         }
     }
 `
 
 export const ModalContent = styled(Container)`
     overflow: none;
-
     .content{
         display: flex;
         column-gap: 30px;
+        @media(max-width: 600px){
+            column-gap: 10px;
+        }
+        @media(max-width: 450px){
+            flex-direction: column;
+            align-items: center;
+        }
     }
     .preview{
         background: ${Colors.grey};
         width: 200px;
         height: 200px;
         border-radius: 15px;
+        @media(max-width: 600px){
+            width: 150px;
+            height: 150px;
+        }
+        @media (max-width: 450px){
+            margin: 15px 0;
+            width: 100%;
+            min-width: 200px;
+            max-width: 450px;
+            height: 200px;
+        }
     }
     .info{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        
+
         h3{
             color: ${Colors.black};
             line-height: normal;
@@ -46,6 +99,21 @@ export const ModalContent = styled(Container)`
         p{
             font-size: ${FontSizes.rat};
         }
+
+        @media (max-width: 700px){
+            h3{
+            font-size: ${FontSizes.cat};
+            font-weight: 600;
+            }
+
+            p{
+                font-size: 12px;
+            }
+        }
+        @media (max-width: 700px){
+        gap: 10px;
+        }
+        
     }
 `
 
@@ -55,6 +123,10 @@ export const Botoes = styled.div`
     gap: 10px;
     justify-content: flex-start;
     list-style: none;
+
+        @media(max-width: 600px){
+            gap: 4px;
+        }
     }
     .github, .website{
         display: flex;
@@ -72,7 +144,20 @@ export const Botoes = styled.div`
             color: ${Colors.white};
             font-size: ${FontSizes.rat};
             font-weight: 600;
+        }
 
+        @media (max-width: 700px){
+            padding: 0.5rem;
+            p{
+                font-weight: 400;
+                margin-right: 5px;
+                font-size: 12px;
+            }
+
+            img{
+                width: 15px;
+                height: 15px;
+            }
         }
     }
 

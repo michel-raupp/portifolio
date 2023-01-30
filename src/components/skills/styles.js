@@ -3,7 +3,6 @@ import { Box, Colors, FontSizes } from "../../styles/styles";
 
 
 export const SkillsContainer = styled.div`
-    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(2, 420px);
     column-gap: 3rem;

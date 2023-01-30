@@ -5,7 +5,6 @@ export const ProjectsContainer = styled(Container)`
     grid-template-columns: repeat(3, 270px);
     justify-content: center;
     column-gap: 1.9rem;
-    margin-top: 50px;
 `
 
 export const ProjectsCard = styled(Box)`
@@ -56,6 +55,7 @@ export const ProjectsCard = styled(Box)`
 
     .projectsModal{
         overflow-y:scroll;
+        overflow-x:hidden;
         position: fixed;
         top: 0;
         right: 0;
@@ -79,6 +79,9 @@ export const ProjectsCard = styled(Box)`
         background-color: ${Colors.white};
         padding: 2.5rem;
         border-radius: 20px;
+        @media(max-width: 600px){
+                padding: 2rem 1rem;
+        }
     }
 
     .close-modal{
@@ -88,6 +91,13 @@ export const ProjectsCard = styled(Box)`
         width: 40px;
         height: 40px;
         cursor: pointer;
+
+        @media(max-width: 600px){
+            top: 1rem;
+            right: 1rem;
+            width: 25px;
+            height: 25px;
+        }
     }
 
     .projectsModal-title,
@@ -101,6 +111,11 @@ export const ProjectsCard = styled(Box)`
         font-size: ${FontSizes.wolf};
         font-weight: 600;
         margin-bottom: 5px;
+
+        @media(max-width: 600px){
+            margin-bottom: 0;
+            font-size: ${FontSizes.cat};
+        }
     }
 
     .projectsModal-description{
@@ -108,6 +123,11 @@ export const ProjectsCard = styled(Box)`
         font-size: ${FontSizes.cat};
         font-weight: 400;
         margin-bottom: 25px;
+
+        @media(max-width: 600px){
+            margin-bottom: 25px;
+            font-size: ${FontSizes.rat};
+        }
     }
 
     .active-modal{

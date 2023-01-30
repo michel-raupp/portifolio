@@ -10,7 +10,7 @@ function About() {
                     <h2>About Me</h2>
                     <h3>My resume</h3>
                 </SectionTitle>
-                <Section style={{ padding: "50px 0 0 0" }}>
+                <Section style={{ padding: "0" }}>
                     <ProfileIMG />
                     <CoisasAbout>
                         <Coisas style={{ gap: '30px' }}>

@@ -54,6 +54,10 @@ const GlobalStyle = createGlobalStyle`
 		border-collapse: collapse;
 		border-spacing: 0;
 	}
+	hr{
+        width: 100%;
+        border: 1px solid ${Colors.grey};
+    }
 `;
  
 export default GlobalStyle;

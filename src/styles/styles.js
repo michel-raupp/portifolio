@@ -48,11 +48,11 @@ export const Coisas = styled(Column)`
         p{
             font-weight: 400;
             font-size: ${FontSizes.cat};
-
         }    
 `
 
 export const SectionTitle = styled(Container)`
+    margin-bottom: 50px;
     flex-direction: column;
     align-items: center;
     h2{
