@@ -3,11 +3,11 @@ import { Circle, Title, Subtitle, Socials } from "./styles";
 import Insta from "../../assets/instagram.svg"
 import Github from "../../assets/github.png"
 import Email from "../../assets/email.png"
-import { Coisas, Section } from "../../styles/styles";
+import { Coisas, ReverseSection, Section } from "../../styles/styles";
 
 function Header() {
     return (
-        <Section>
+        <ReverseSection>
             <Coisas>
                 <Title>Michel Raupp</Title>
                 <Subtitle>
@@ -41,7 +41,7 @@ function Header() {
                 </Socials>
             </ Coisas>
             <Circle />
-        </ Section>
+        </ ReverseSection>
     );
 }
 

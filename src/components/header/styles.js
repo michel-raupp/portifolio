@@ -4,8 +4,15 @@ import { Colors, Container, FontSizes } from "../../styles/styles";
 export const Circle = styled.div`
     width: 450px;
     height: 450px;
-    border-radius: 50%;
     background: ${Colors.black};
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+    @media (max-width: 1100px){
+        width: 400px;
+        height: 400px;
+    }
+    
 `
 export const Button = styled(Container)`
     width: 350px;
@@ -24,23 +31,26 @@ export const Subtitle = styled(Container)`
     align-items: center;
     justify-content: flex-start;
     gap: 20px;
-    width: 570px;
+    width: 100%;
+    max-width: 450px;
     margin: 20px 0 20px 0;
     h2{
         font-size: ${FontSizes.hippo};
-        width: auto;
+        white-space: nowrap;
     }
     .Line{
         top: 50%;
-        width: 100px;
+        width: 100%;
         height: 2px;
         background: ${Colors.grey};
     }
+    
 `
 
 export const Socials = styled(Container)`
     margin: 30px 0 0 0;
     gap: 20px;
+
     .wrapper {
     display: inline-flex;
     list-style: none;
@@ -49,6 +59,10 @@ export const Socials = styled(Container)`
     padding-top: 40px;
     font-family: "Poppins", sans-serif;
     justify-content: center;
+
+        @media (max-width: 1100px){
+            padding-top: 10px;
+        }
     }
 
     .wrapper .icon {

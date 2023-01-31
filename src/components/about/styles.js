@@ -6,6 +6,11 @@ export const ProfileIMG = styled.img`
     width: 450px;
     height: 450px;
     background: ${Colors.black};
+
+    @media (max-width: 500px){
+        width: 350px;
+        height: 350px;
+    }
 `
 
 export const CoisasAbout = styled(Column)`
@@ -13,12 +18,26 @@ export const CoisasAbout = styled(Column)`
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    
+    @media (max-width: 1000px){
+        align-items: center;
+        p{
+            width: 450px;
+            width: 100%;
+            
+        }
+    }
 `
 
 export const Download = styled(Container)`
 
     //créditos para o @satyamchaudharydev
     //https://uiverse.io/satyamchaudharydev/afraid-yak-30
+
+    @media (max-width: 1000px){
+        align-self: center;
+        margin-top: 40px;
+    }
 
     .button {
         

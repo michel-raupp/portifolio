@@ -7,6 +7,10 @@ export const SkillsContainer = styled.div`
     grid-template-columns: repeat(2, 420px);
     column-gap: 3rem;
     justify-content: center;
+    @media (max-width: 1000px){
+        grid-template-columns: repeat(1, 420px);;
+        row-gap: 3rem;
+    }
 `
 
 

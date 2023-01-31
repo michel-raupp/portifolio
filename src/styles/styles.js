@@ -39,16 +39,45 @@ export const Column = styled(Container)`
 export const Section = styled(Container)`
     gap: 100px;
     padding: 100px 0;
+    align-self: center;
+    max-width: auto;
+
+    @media(max-width: 1100px){
+        gap: 50px;
+    }
+
+    @media (max-width: 1000px){
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    }
+`
+
+export const ReverseSection = styled(Section)`
+    @media (max-width: 1000px){
+            flex-direction: column-reverse;
+    }   
 `
 
 export const Coisas = styled(Column)`
     align-items: flex-start;
     justify-content: flex-start;
-    width: 550px;
+    width: auto;
+    height: auto;
+    max-width: 550px;
         p{
+            max-width: 450px;
+            width:100%;
             font-weight: 400;
             font-size: ${FontSizes.cat};
-        }    
+        }
+
+        @media (max-width: 1000px){
+            max-width: 90%;
+            align-items:center;
+            justify-content: center;
+        }
+    
 `
 
 export const SectionTitle = styled(Container)`

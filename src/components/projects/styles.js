@@ -2,9 +2,16 @@ import styled from "styled-components";
 import { Box, Colors, Container, FontSizes } from "../../styles/styles";
 
 export const ProjectsContainer = styled(Container)`
+    display: grid;
     grid-template-columns: repeat(3, 270px);
-    justify-content: center;
-    column-gap: 1.9rem;
+    grid-gap: 1.9rem;
+    
+    @media(max-width: 1000px){
+        grid-template-columns: repeat(2, 270px);
+    }
+    @media(max-width: 650px){
+        grid-template-columns: repeat(1, 270px);
+    }
 `
 
 export const ProjectsCard = styled(Box)`

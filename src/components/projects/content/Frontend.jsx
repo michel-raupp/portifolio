@@ -17,7 +17,7 @@ const Frontend = () => {
                   <p>Github</p><img src={badge} alt="" />
                 </li>
                 <li className="website" href="">
-                  <p>Project website</p><img src={badge} alt="" />
+                  <p>Demo</p><img src={badge} alt="" />
                 </li>
               </ul>
             </Botoes>
@@ -38,7 +38,7 @@ const Frontend = () => {
                   <p>Github</p><img src={badge} alt="" />
                 </li>
                 <li className="website" href="">
-                  <p>Website</p><img src={badge} alt="" />
+                <p>Demo</p><img src={badge} alt="" />
                 </li>
               </ul>
             </Botoes>
@@ -59,7 +59,7 @@ const Frontend = () => {
                   <p>Github</p><img src={badge} alt="" />
                 </li>
                 <li className="website" href="">
-                  <p>Website</p><img src={badge} alt="" />
+                <p>Demo</p><img src={badge} alt="" />
                 </li>
               </ul>
             </Botoes>

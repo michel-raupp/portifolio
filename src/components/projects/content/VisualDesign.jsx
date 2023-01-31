@@ -5,7 +5,7 @@ import badge from "../../../assets/bxs-badge-check.svg";
 const VisualDesign = () => {
   return (
     <Conteudo>
-      <ModalContent> 
+      <ModalContent>
         <div className='content'>
           <img className='preview' src='' alt='' />
           <div className='info'>
@@ -15,10 +15,7 @@ const VisualDesign = () => {
             <Botoes>
               <ul className="wrapper">
                 <li className="github" href="">
-                  <p>Github</p><img src={badge} alt="" />
-                </li>
-                <li className="website" href="">
-                  <p>Project website</p><img src={badge} alt="" />
+                  <p>Figma</p><img src={badge} alt="" />
                 </li>
               </ul>
             </Botoes>
@@ -36,10 +33,7 @@ const VisualDesign = () => {
             <Botoes>
               <ul className="wrapper">
                 <li className="github" href="">
-                  <p>Github</p><img src={badge} alt="" />
-                </li>
-                <li className="website" href="">
-                  <p>Website</p><img src={badge} alt="" />
+                  <p>Figma</p><img src={badge} alt="" />
                 </li>
               </ul>
             </Botoes>
@@ -57,10 +51,7 @@ const VisualDesign = () => {
             <Botoes>
               <ul className="wrapper">
                 <li className="github" href="">
-                  <p>Github</p><img src={badge} alt="" />
-                </li>
-                <li className="website" href="">
-                  <p>Website</p><img src={badge} alt="" />
+                  <p>Figma</p><img src={badge} alt="" />
                 </li>
               </ul>
             </Botoes>
