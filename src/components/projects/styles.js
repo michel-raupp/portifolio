@@ -94,7 +94,7 @@ export const ProjectsCard = styled(Box)`
             padding: 2rem 1rem;
         }
         @media(max-width: 450px){
-            margin-top: 550px;//this margin doesn't work on Illustrations.jsx due the INLINE fixed margin on the line 102 of index.js
+            margin-top: 620px;//this margin doesn't work on Illustrations.jsx due the INLINE fixed margin on the line 102 of index.js
         }
         @media(max-width: 380px){
             margin-top: 400px;
