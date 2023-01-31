@@ -57,15 +57,17 @@ export const Conteudo = styled(Column)`
 
 export const ModalContent = styled(Container)`
     overflow: none;
+    
     .content{
         display: flex;
-        column-gap: 30px;
+        gap: 30px;
         @media(max-width: 600px){
-            column-gap: 10px;
+            gap: 10px;
         }
         @media(max-width: 450px){
             flex-direction: column;
             align-items: center;
+            gap: 0;
         }
     }
     .preview{
@@ -78,11 +80,14 @@ export const ModalContent = styled(Container)`
             height: 150px;
         }
         @media (max-width: 450px){
-            margin: 15px 0;
-            width: 100%;
-            min-width: 200px;
-            max-width: 450px;
-            height: 200px;
+            margin: 0 0 15px 0;
+            width: 250px;
+            height: 250px;
+        }
+        @media (max-width: 380px){
+            margin: 0 0 15px 0;
+            width: 200px;
+            height: auto;
         }
     }
     .info{

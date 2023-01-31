@@ -1,10 +1,12 @@
 import styled from "styled-components";
 import { Box, Colors, Container, FontSizes } from "../../styles/styles";
 
+//.projectsModal-content has a margin propertie, for a better responsiveness on mobile devices. But Illustrations.jsx isn't affected by this margin because it already has a INLINE margin on the line 102 of index.js
+
 export const ProjectsContainer = styled(Container)`
     display: grid;
     grid-template-columns: repeat(3, 270px);
-    grid-gap: 1.9rem;
+    grid-gap: 2.4rem;
     
     @media(max-width: 1000px){
         grid-template-columns: repeat(2, 270px);
@@ -15,6 +17,7 @@ export const ProjectsContainer = styled(Container)`
 `
 
 export const ProjectsCard = styled(Box)`
+
     position: relative;
     justify-content: space-between;
     padding: 1.5rem;
@@ -86,8 +89,15 @@ export const ProjectsCard = styled(Box)`
         background-color: ${Colors.white};
         padding: 2.5rem;
         border-radius: 20px;
+
         @media(max-width: 600px){
-                padding: 2rem 1rem;
+            padding: 2rem 1rem;
+        }
+        @media(max-width: 450px){
+            margin-top: 550px;//this margin doesn't work on Illustrations.jsx due the INLINE fixed margin on the line 102 of index.js
+        }
+        @media(max-width: 380px){
+            margin-top: 400px;
         }
     }
 

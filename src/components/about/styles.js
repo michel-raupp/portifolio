@@ -8,8 +8,8 @@ export const ProfileIMG = styled.img`
     background: ${Colors.black};
 
     @media (max-width: 500px){
-        width: 350px;
-        height: 350px;
+        width: 90%;
+        height: 90%;
     }
 `
 
@@ -23,8 +23,11 @@ export const CoisasAbout = styled(Column)`
         align-items: center;
         p{
             width: 450px;
-            width: 100%;
-            
+            text-align: center;
+            @media (max-width: 480px){
+                max-width: 450px;
+                width: auto;
+            }
         }
     }
 `

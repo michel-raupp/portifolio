@@ -2,8 +2,10 @@ import styled from "styled-components";
 
 export const Colors = {
     primary: '#3F5DE4',
-    secondary:'#E4405F',
-    terciary:'#733FE4',
+    secondary:'#F02E9A',
+    terciary:'#9F2EF0',
+    green: '#98CE00',
+    red: '#F02E36',
 
     darkGrey:'#888888',
     background: '#F7F7F7',
@@ -35,6 +37,12 @@ export const Container = styled.div`
 `
 export const Column = styled(Container)`
     flex-direction: column;
+
+    hr{
+        margin:30px 0;
+        width: 95%;
+        align-self: center;
+    }
 `
 export const Section = styled(Container)`
     gap: 100px;
@@ -47,9 +55,9 @@ export const Section = styled(Container)`
     }
 
     @media (max-width: 1000px){
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 `
 
@@ -76,7 +84,13 @@ export const Coisas = styled(Column)`
             max-width: 90%;
             align-items:center;
             justify-content: center;
+            text-align: center;
         }
+        @media (max-width: 380px){
+            p{
+            font-size: ${FontSizes.rat};
+        }
+    }
     
 `
 
@@ -95,6 +109,8 @@ export const SectionTitle = styled(Container)`
         line-height: normal;
         font-size: ${FontSizes.wolf};
         font-weight: 400;
+        max-width: 90%;
+        text-align: center;
     }
 `
 export const Box = styled(Container)`

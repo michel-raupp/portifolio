@@ -14,7 +14,7 @@ const Hardskills = () => {
 
                         <div>
                             <h3 className="skillName">ReactJS</h3>
-                            <span>Basic</span>
+                            <span><p>Basic</p></span>
                         </div>
                     </div>
 
@@ -23,7 +23,7 @@ const Hardskills = () => {
 
                         <div>
                             <h3 className="skillName">Wordpress</h3>
-                            <span>Basic</span>
+                            <span><p>Basic</p></span>
                         </div>
                     </div>
 
@@ -32,7 +32,7 @@ const Hardskills = () => {
 
                         <div>
                             <h3 className="skillName">HTML</h3>
-                            <span>Basic</span>
+                            <span><p>Basic</p></span>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ const Hardskills = () => {
 
                         <div>
                             <h3 className="skillName">Photoshop</h3>
-                            <span>Advanced</span>
+                            <span><p>Advanced</p></span>
                         </div>
                     </div>
 
@@ -53,7 +53,7 @@ const Hardskills = () => {
 
                         <div>
                             <h3 className="skillName">Figma</h3>
-                            <span>Intermediate</span>
+                            <span><p>Intermediate</p></span>
                         </div>
                     </div>
 
@@ -62,7 +62,7 @@ const Hardskills = () => {
 
                         <div>
                             <h3 className="skillName">CSS</h3>
-                            <span>Basic</span>
+                            <span><p>Basic</p></span>
                         </div>
                     </div>
                 </div>

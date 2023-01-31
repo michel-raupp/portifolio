@@ -1,12 +1,12 @@
 import React from 'react'
 import { Column, Section, SectionTitle } from '../../styles/styles'
 import { WorkContainer, WorkImg } from './styles'
-import badge from "../../assets/imgs/ellie.png"
+import ellie from "../../assets/imgs/ellie.png"
 
 const Work = () => {
     return (
         <Section>
-            <Column style={{ gap: "20px" }}>
+            <Column>
                 <SectionTitle>
                     <h2>Work</h2>
                     <h3>What kind of experiences I got from my jobs?</h3>
@@ -15,16 +15,16 @@ const Work = () => {
                 <WorkContainer>
                     <div className='container'>
                         <WorkImg>
-                            <img src={badge} alt="" />
+                            <img src={ellie} alt="" />
                             <div className='titleV2'>
                                 <h3>Concept Artist | UX | UI</h3>
-                                <h3>Crypto Farms Land</h3>
+                                <p>at Crypto Farms Land</p>
                             </div>
                         </WorkImg>
                         <div className='infos'>
                             <div className='title'>
                                 <h3>Concept Artist | UX | UI</h3>
-                                <h3>Crypto Farms Land</h3>
+                                <p>Crypto Farms Land</p>
                             </div>
                             <p>
                                 The CF Land is a browser game under development, based on games like Clash of Clans and Tribal Wars, which you have your own Land and you can upgrade buildings, train troops, attack other player’s Lands, with RPG features like heroes and gears.
@@ -38,20 +38,19 @@ const Work = () => {
                 <WorkContainer>
                     <div className='container'>
                         <WorkImg>
-                            <img src={badge} alt="" />
+                            <img src={ellie} alt="" />
                             <div className='titleV2'>
                                 <h3>Digital Artist</h3>
-                                
-                                <h3>Crypto Farms NFT</h3>
+                                <p>at Crypto Farms NFT</p>
                             </div>
                         </WorkImg>
                         <div className='infos'>
                             <div className='title'>
                                 <h3>Digital Artist</h3>
-                                <h3>Crypto Farms NFT</h3>
+                                <p>Crypto Farms NFT</p>
                             </div>
                             <p>
-                                Crypto Farms is a NFT Play to Earn game project, on Wax Blockchain. The project had more than $ 2 millions volume on Atomic Hub marketplace, being the most popular project during the March of 2022.
+                                Crypto Farms is a NFT Play to Earn game project, on Wax Blockchain. The project had more than $ 2 millions volume on Atomic Hub marketplace.
                                 I worked on it as co-funder and Digital Artist, planning the branding around the Crypto Farms, creating Illustrations for the NFTs, the best UI design for the game and developing concept arts for the project.
                             </p>
                             <p className='date'>December 2021 ~ July 2022</p>
@@ -62,16 +61,16 @@ const Work = () => {
                 <WorkContainer>
                     <div className='container'>
                         <WorkImg>
-                            <img src={badge} alt="" />
+                            <img src={ellie} alt="" />
                             <div className='titleV2'>
                                 <h3>Graphic Designer</h3>
-                                <h3>Fraternidade Crypto</h3>
+                                <p>at Fraternidade Crypto</p>
                             </div>
                         </WorkImg>
                         <div className='infos'>
                             <div className='title'>
                                 <h3>Graphic Designer</h3>
-                                <h3>Fraternidade Crypto</h3>
+                                <p>Fraternidade Crypto</p>
                             </div>
                             <p>
                                 Fraternidade Crypto was one of the biggest Blog specialized on Play to Earn and NFT news. I worked as a content creator for the blog doing thumbnails, customized Ads banners and creating own images to the writer use on the news.

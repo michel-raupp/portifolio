@@ -1,18 +1,19 @@
 import styled from "styled-components";
 import { Box, Colors, FontSizes } from "../../styles/styles";
 
-
 export const SkillsContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 420px);
-    column-gap: 3rem;
+    grid-gap: 3rem;
     justify-content: center;
     @media (max-width: 1000px){
         grid-template-columns: repeat(1, 420px);;
-        row-gap: 3rem;
+    }
+    @media (max-width: 450px){
+        grid-template-columns: repeat(1, 100%);
+        grid-gap: 2rem;
     }
 `
-
 
 export const SkillCard = styled(Box)`
 
@@ -32,12 +33,22 @@ export const SkillCard = styled(Box)`
         display: flex;
         padding-left: 20px;
         column-gap: 5rem;
+        @media (max-width: 450px){
+            padding-left: 0;
+            column-gap: 0;
+            justify-content: space-between;
+        }
     }
 
     .softSkillsBox{
         display: flex;
         justify-content: center;
         column-gap: 2.5rem;
+        @media (max-width: 450px){
+            padding-left: 0;
+            column-gap: 15px;
+            justify-content: space-between;
+        }
     }
 
     .skillsGroup{
@@ -49,11 +60,18 @@ export const SkillCard = styled(Box)`
     .skillsData{
         display: flex;
         column-gap: 0.5rem;
+        @media (max-width: 450px){
+            column-gap: 0;
+        }
     }
 
     img{
         fill: green;
         margin-bottom: auto;
+        @media (max-width: 450px){
+            width: 15px;
+            
+        }
     }
 
     .skillName{
@@ -64,9 +82,23 @@ export const SkillCard = styled(Box)`
         text-align: left;
     }
 
-    span{
+    p{
         font-size: ${FontSizes.rat};
         color: ${Colors.darkGrey};
+        line-height: 20px;
+    }
+
+    @media(max-width: 450px){
+        padding: 20px;
+
+        .skillName{
+            font-size: 14px;
+        }
+
+        p{
+            max-width: 120px;
+            line-height: 20px;
+        }
     }
     
 `

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Colors, Container, FontSizes } from "../../styles/styles";
 
-export const Circle = styled.div`
+export const Circle = styled.img`
     width: 450px;
     height: 450px;
     background: ${Colors.black};
@@ -11,6 +11,10 @@ export const Circle = styled.div`
     @media (max-width: 1100px){
         width: 400px;
         height: 400px;
+    }
+    @media (max-width: 550px){
+        width: 90%;
+        height: 90%;
     }
     
 `
@@ -22,9 +26,28 @@ export const Button = styled(Container)`
 `
 
 export const Title = styled.h1`
+
     line-height: normal;
     font-size: ${FontSizes.giraffe};
     font-weight: 700;
+
+    @media (max-width: 550px){
+        font-size: 50px;
+    }
+    @media (max-width: 380px){
+        font-size: 40px;
+    }
+
+    .footer-title{
+        font-size: 63px;
+        line-height: normal;
+        @media (max-width: 550px){
+            font-size: 43px;
+        }
+        @media (max-width: 380px){
+            font-size: 35px;
+        }
+    }
 `
 
 export const Subtitle = styled(Container)`
@@ -33,7 +56,7 @@ export const Subtitle = styled(Container)`
     gap: 20px;
     width: 100%;
     max-width: 450px;
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
     h2{
         font-size: ${FontSizes.hippo};
         white-space: nowrap;
@@ -43,6 +66,20 @@ export const Subtitle = styled(Container)`
         width: 100%;
         height: 2px;
         background: ${Colors.grey};
+    }
+
+    @media (max-width: 550px){
+        h2{
+            font-size: ${FontSizes.horse};
+        }
+        margin: 0px 0 10px 0;
+    }
+
+    @media (max-width: 380px){
+        h2{
+            font-size: ${FontSizes.wolf};
+        }
+        margin: 0px 0 10px 0;
     }
     
 `
@@ -66,24 +103,39 @@ export const Socials = styled(Container)`
     }
 
     .wrapper .icon {
-    position: relative;
-    background: ${Colors.black};
-    border-radius: 15px;
-    margin: 0 20px 0 0;
-    width: 65px;
-    height: 65px;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    img{
-        width: 45px;
-        height: 45px;
+        position: relative;
+        background: ${Colors.black};
+        border-radius: 15px;
+        margin: 0 10px;
+        width: 65px;
+        height: 65px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        img{
+            width: 45px;
+            height: 45px;
             filter: invert(1);
+        }
+    }
+
+    @media (max-width: 380px){
+        margin: 20px 0 0 0;
+        .wrapper .icon {
+            border-radius: 10px;
+            width: 55px;
+            height: 55px;
+            margin: 0 5px;
+
+            img{
+                width: 40px;
+                height: 40px;
+            }
         }
     }
 
@@ -125,17 +177,17 @@ export const Socials = styled(Container)`
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
     }
 
-    .wrapper .facebook:hover,
-    .wrapper .facebook:hover .tooltip,
-    .wrapper .facebook:hover .tooltip::before {
-    background: ${Colors.terciary};
+    .wrapper .github:hover,
+    .wrapper .github:hover .tooltip,
+    .wrapper .github:hover .tooltip::before {
+        background: ${Colors.primary};
     color: #fff;
     }
 
-    .wrapper .twitter:hover,
-    .wrapper .twitter:hover .tooltip,
-    .wrapper .twitter:hover .tooltip::before {
-    background: ${Colors.primary};
+    .wrapper .email:hover,
+    .wrapper .email:hover .tooltip,
+    .wrapper .email:hover .tooltip::before {
+    background: ${Colors.terciary};
     color: #fff;
     }
 
@@ -144,6 +196,12 @@ export const Socials = styled(Container)`
     .wrapper .instagram:hover .tooltip::before {
     background: ${Colors.secondary};
     color: #fff;
-        
+    }
+
+    .wrapper .linkedin:hover,
+    .wrapper .linkedin:hover .tooltip,
+    .wrapper .linkedin:hover .tooltip::before {
+    background: ${Colors.red};
+    color: #fff;
     }
 `

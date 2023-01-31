@@ -1,12 +1,14 @@
 import React from 'react'
 import { Botoes, Conteudo, ModalContent } from './styles'
 import badge from "../../../assets/bxs-badge-check.svg";
+import ellie from "../../../assets/imgs/ellie.png"
+
 const Frontend = () => {
   return (
     <Conteudo>
       <ModalContent> 
         <div className='content'>
-          <img className='preview' src='' alt='' />
+          <img className='preview' src={ellie} alt='' />
           <div className='info'>
             <h3>Pokédex project</h3>
             <p>You can search for a Pokémon on the Seach Tab. Created using ReactJS, Axios and PokéAPI.
@@ -27,7 +29,7 @@ const Frontend = () => {
       <hr />
       <ModalContent>
         <div className='content'>
-          <img className='preview' src='' alt='' />
+          <img className='preview' src={ellie} alt='' />
           <div className='info'>
             <h3>THE GYM</h3>
             <p>A Gym landing Page using ReactJS and Styled Components, with responsive menus, contact form and buttons.
@@ -48,7 +50,7 @@ const Frontend = () => {
       <hr />
       <ModalContent>
         <div className='content'>
-          <img className='preview' src='' alt='' />
+          <img className='preview' src={ellie} alt='' />
           <div className='info'>
             <h3>Portifolio</h3>
             <p>This is my Portifolio website that you're looking right now. Built with ReactJS and Styled Components.

@@ -1,6 +1,7 @@
 import React from "react";
 import { Coisas, Column, Section, SectionTitle } from "../../styles/styles";
 import { CoisasAbout, Download, ProfileIMG } from "./styles";
+import ellie from "../../assets/imgs/ellie.png"
 
 function About() {
     return (
@@ -11,12 +12,12 @@ function About() {
                     <h3>My resume</h3>
                 </SectionTitle>
                 <Section style={{ padding: "0" }}>
-                    <ProfileIMG />
+                    <ProfileIMG src={ellie}/>
                     <CoisasAbout>
                         <Coisas style={{ gap: '30px' }}>
                             <p>I am a 21 years old brazilian who’s studying Systems of Information degree. I’m advanced on English, I like to draw everyday, workout and read some dystopic histories books. </p>
-                            <p>Since december 2021 I’ve been working on Crypto Farms as co-funder and Designer. Crypto Farms is a NFT game project on Wax Blockchain who had more than $ 2 millions volume on Atomic Hub marketplace.</p>
-                            <p>During this time I learned about the branding process, how to design a product, prototyping projects, illustrate Concept Arts, UI Design and Front-end Development.</p>
+                            <p>Since december 2021 I’ve been working on the blockchain game Crypto Farms as co-funder and Designer.</p>
+                            <p>During this time I learned about the branding process, how to design a product, prototyping projects, illustrate Concept Arts, UI Design and Frontend Development.</p>
                         </Coisas>
                         <Download>
                             <div data-tooltip="Size: 20Mb" className="button">

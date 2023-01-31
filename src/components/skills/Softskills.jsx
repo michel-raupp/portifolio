@@ -14,7 +14,7 @@ const Softskills = () => {
 
                         <div>
                             <h3 className="skillName">Creative</h3>
-                            <span>Thinking on different</span>
+                            <span><p>Thinking on different</p></span>
                         </div>
                     </div>
 
@@ -23,7 +23,7 @@ const Softskills = () => {
 
                         <div>
                             <h3 className="skillName">English</h3>
-                            <span>Advanced C2</span>
+                            <span><p>Advanced C2</p></span>
                         </div>
                     </div>
 
@@ -32,7 +32,7 @@ const Softskills = () => {
 
                         <div>
                             <h3 className="skillName">Drawings</h3>
-                            <span>Digital Illustrations</span>
+                            <span><p>Digital Illustrations</p></span>
                         </div>
 
                     </div>
@@ -44,7 +44,7 @@ const Softskills = () => {
 
                         <div>
                             <h3 className="skillName">Open-minded</h3>
-                            <span>Can you gimme a tip?</span>
+                            <span><p>Can you gimme a tip?</p></span>
                         </div>
                     </div>
 
@@ -53,7 +53,7 @@ const Softskills = () => {
 
                         <div>
                             <h3 className="skillName">Curiosity</h3>
-                            <span>Seeks for what's new</span>
+                            <span><p>Seeks for what's new</p></span>
                         </div>
                     </div>
 
@@ -62,7 +62,7 @@ const Softskills = () => {
 
                         <div>
                             <h3 className="skillName">UX/UI</h3>
-                            <span>Thinking like the user</span>
+                            <span><p>Thinking like the user</p></span>
                         </div>
                     </div>
                 </div>
