@@ -1,7 +1,7 @@
 import React from "react";
 import { Coisas, Column, Section, SectionTitle } from "../../styles/styles";
 import { CoisasAbout, Download, ProfileIMG } from "./styles";
-import ellie from "../../assets/imgs/ellie.png"
+import profile2 from "../../assets/imgs/profile2.jpg"
 
 function About() {
     return (
@@ -12,7 +12,7 @@ function About() {
                     <h3>My resume</h3>
                 </SectionTitle>
                 <Section style={{ padding: "0" }}>
-                    <ProfileIMG src={ellie}/>
+                    <ProfileIMG src={profile2}/>
                     <CoisasAbout>
                         <Coisas style={{ gap: '30px' }}>
                             <p>I am a 21 years old brazilian who’s studying Systems of Information degree. I’m advanced on English, I like to draw everyday, workout and read some dystopic histories books. </p>
@@ -20,8 +20,8 @@ function About() {
                             <p>During this time I learned about the branding process, how to design a product, prototyping projects, illustrate Concept Arts, UI Design and Frontend Development.</p>
                         </Coisas>
                         <Download>
-                            <div data-tooltip="Size: 20Mb" className="button">
-                                <a href="">
+                            <div data-tooltip="Size: 160KB" className="button">
+                                <a href="https://github.com/michel-raupp/gym-project" target="_blank" and rel="noopener noreferrer">
                                     <div className="button-wrapper">
                                         <div className="text">Download CV</div>
                                         <span className="icon">

@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import {Colors} from "../styles/styles"
+import {Colors} from "./styles"
 
 const GlobalStyle = createGlobalStyle`
 	/* http://meyerweb.com/eric/tools/css/reset/ 
@@ -58,6 +58,9 @@ const GlobalStyle = createGlobalStyle`
         width: 100%;
         border: 1px solid ${Colors.grey};
     }
+	a{
+		text-decoration: none;
+	}
 `;
  
 export default GlobalStyle;

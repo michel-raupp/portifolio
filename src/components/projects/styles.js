@@ -40,11 +40,12 @@ export const ProjectsCard = styled(Box)`
     .technology-used{
         width: 40px;
         height: 40px;
+        margin-right: 5px;
         bottom: 0;
     }
 
     .view-more{
-        color: ${Colors.secondary};
+        color: ${Colors.black};
         font-size: ${FontSizes.cat};
         display: inline-flex;
         align-items: center;
@@ -61,7 +62,6 @@ export const ProjectsCard = styled(Box)`
     .view-more:hover{
         transform: translateX(0.5rem);
     }
-
 
     .projectsModal{
         overflow-y:scroll;

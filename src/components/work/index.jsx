@@ -1,7 +1,11 @@
 import React from 'react'
 import { Column, Section, SectionTitle } from '../../styles/styles'
 import { WorkContainer, WorkImg } from './styles'
-import ellie from "../../assets/imgs/ellie.png"
+
+import cf1 from "../../assets/preview/cf1.jpg"
+import cf2 from "../../assets/preview/cf2.jpg"
+import cf4 from "../../assets/preview/cf4.jpg"
+
 
 const Work = () => {
     return (
@@ -15,7 +19,7 @@ const Work = () => {
                 <WorkContainer>
                     <div className='container'>
                         <WorkImg>
-                            <img src={ellie} alt="" />
+                            <img src={cf2} alt="" />
                             <div className='titleV2'>
                                 <h3>Concept Artist | UX | UI</h3>
                                 <p>at Crypto Farms Land</p>
@@ -38,7 +42,7 @@ const Work = () => {
                 <WorkContainer>
                     <div className='container'>
                         <WorkImg>
-                            <img src={ellie} alt="" />
+                            <img src={cf4} alt="" />
                             <div className='titleV2'>
                                 <h3>Digital Artist</h3>
                                 <p>at Crypto Farms NFT</p>
@@ -61,7 +65,7 @@ const Work = () => {
                 <WorkContainer>
                     <div className='container'>
                         <WorkImg>
-                            <img src={ellie} alt="" />
+                            <img src={cf1} alt="" />
                             <div className='titleV2'>
                                 <h3>Graphic Designer</h3>
                                 <p>at Fraternidade Crypto</p>

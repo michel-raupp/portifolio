@@ -3,6 +3,10 @@ import { ReverseSection } from "../../styles/styles";
 
 export const FooterSection = styled(ReverseSection)`
     gap: 100px;
+    .artist{
+        width: 40px;
+        height: 40px;
+    }
 
     @media(max-width: 1200px){
         gap: 30px;
