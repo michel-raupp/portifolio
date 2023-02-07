@@ -14,6 +14,10 @@ export const Conteudo = styled(Column)`
             align-items: center;
             color: ${Colors.white};
             background: rgba(0, 0, 20, 1);
+<<<<<<< HEAD
+=======
+            
+>>>>>>> 42d02d46355fd6bbf065e7f4cec61da516bf2736
             text-align: center;
             cursor: pointer;
 
