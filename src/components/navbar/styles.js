@@ -120,8 +120,10 @@ export const Logo = styled.p`
 `
 
 export const NavbarSection = styled.nav`
+
     z-index: 98;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     display: flex;
     align-items: center;

@@ -5,11 +5,7 @@ export const ProfileIMG = styled.img`
     border-radius: 20px;
     width: 450px;
     height: 450px;
-<<<<<<< HEAD
     filter: saturate(0);
-=======
-    
->>>>>>> 42d02d46355fd6bbf065e7f4cec61da516bf2736
     @media (max-width: 500px){
         width: 90%;
         height: 90%;

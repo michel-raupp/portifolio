@@ -20,6 +20,7 @@ const GlobalStyle = createGlobalStyle`
 	figure, figcaption, footer, header, hgroup, 
 	menu, nav, output, ruby, section, summary,
 	time, mark, audio, video {
+		
 		scroll-behavior: smooth;
 		margin: 0;
 		padding: 0;
