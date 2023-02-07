@@ -1,22 +1,24 @@
 import React from 'react'
 import { Botoes, Conteudo, ModalContent } from './styles'
-import badge from "../../../assets/bxs-badge-check.svg";
-import ellie from "../../../assets/imgs/ellie.png"
+import arrow from "../../../assets/arrow-right.svg";
+import cf1 from "../../../assets/preview/cf1.jpg"
+import cf2 from "../../../assets/preview/cf2.jpg"
+import cf3 from "../../../assets/preview/cf3.jpg"
 
 const VisualDesign = () => {
   return (
     <Conteudo>
       <ModalContent>
         <div className='content'>
-          <img className='preview' src={ellie} alt='' />
+          <img className='preview' src={cf1} alt='' />
           <div className='info'>
-            <h3>Pokédex project</h3>
-            <p>You can search for a Pokémon on the Seach Tab. Created using ReactJS, Axios and PokéAPI.
+            <h3>Crypto Farms HUDs</h3>
+            <p>Created game HUDs and the UX/UI of the blockchain game Crypto Farms Land.
             </p>
             <Botoes>
               <ul className="wrapper">
                 <li className="github" href="">
-                  <p>Figma</p><img src={badge} alt="" />
+                  <p>Figma</p><img src={arrow} alt="" />
                 </li>
               </ul>
             </Botoes>
@@ -26,15 +28,15 @@ const VisualDesign = () => {
       <hr />
       <ModalContent>
         <div className='content'>
-          <img className='preview' src={ellie} alt='' />
+          <img className='preview' src={cf2} alt='' />
           <div className='info'>
-            <h3>THE GYM</h3>
-            <p>A Gym landing Page using ReactJS and Styled Components, with responsive menus, contact form and buttons.
+            <h3>Character Design</h3>
+            <p>Illustrations of troops, enemies and citzen NPCs, based on a Cyberpunk theme.
             </p>
             <Botoes>
               <ul className="wrapper">
                 <li className="github" href="">
-                  <p>Figma</p><img src={badge} alt="" />
+                  <p>Figma</p><img src={arrow} alt="" />
                 </li>
               </ul>
             </Botoes>
@@ -44,15 +46,15 @@ const VisualDesign = () => {
       <hr />
       <ModalContent>
         <div className='content'>
-          <img className='preview' src={ellie} alt='' />
+          <img className='preview' src={cf3} alt='' />
           <div className='info'>
-            <h3>Portifolio</h3>
-            <p>This is my Portifolio website that you're looking right now. Built with ReactJS and Styled Components.
+            <h3>Game website rebrand</h3>
+            <p>The rebrand was based on transforming a simple website on a gaming hub.
             </p>
             <Botoes>
               <ul className="wrapper">
                 <li className="github" href="">
-                  <p>Figma</p><img src={badge} alt="" />
+                  <p>Figma</p><img src={arrow} alt="" />
                 </li>
               </ul>
             </Botoes>

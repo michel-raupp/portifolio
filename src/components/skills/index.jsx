@@ -7,7 +7,7 @@ import { SkillsContainer } from "./styles";
 
 function Skills() {
     return (
-        <Section>
+        <Section id="skills">
             <Column>
                 <SectionTitle>
                     <h2>Skills</h2>

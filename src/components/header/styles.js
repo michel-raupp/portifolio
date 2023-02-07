@@ -8,6 +8,8 @@ export const Circle = styled.img`
     border-radius: 50%;
     align-self: center;
     justify-self: center;
+    
+
     @media (max-width: 1100px){
         width: 400px;
         height: 400px;
@@ -114,7 +116,7 @@ export const Socials = styled(Container)`
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        //box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
         cursor: pointer;
         transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
         img{
@@ -147,7 +149,7 @@ export const Socials = styled(Container)`
     color: #fff;
     padding: 5px 8px;
     border-radius: 5px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    //box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -174,7 +176,7 @@ export const Socials = styled(Container)`
 
     .wrapper .icon:hover span,
     .wrapper .icon:hover .tooltip {
-    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+    //text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
     }
 
     .wrapper .github:hover,

@@ -7,6 +7,8 @@ export const Colors = {
     green: '#98CE00',
     red: '#F02E36',
 
+    menu: '#61727F',
+
     darkGrey:'#888888',
     background: '#F7F7F7',
     grey: '#D9D9D9',

@@ -1,26 +1,31 @@
 import React from 'react'
 import { Botoes, Conteudo, ModalContent } from './styles'
-import badge from "../../../assets/bxs-badge-check.svg";
-import ellie from "../../../assets/imgs/ellie.png"
+import arrow from "../../../assets/arrow-right.svg";
+import preview1 from "../../../assets/preview/pokedex.jpg"
+import preview2 from "../../../assets/preview/the-gym.jpg"
 
 const Frontend = () => {
   return (
     <Conteudo>
-      <ModalContent> 
+      <ModalContent>
         <div className='content'>
-          <img className='preview' src={ellie} alt='' />
+          <img className='preview' src={preview1} alt='' />
           <div className='info'>
             <h3>Pokédex project</h3>
             <p>You can search for a Pokémon on the Seach Tab. Created using ReactJS, Axios and PokéAPI.
             </p>
             <Botoes>
               <ul className="wrapper">
-                <li className="github" href="">
-                  <p>Github</p><img src={badge} alt="" />
-                </li>
-                <li className="website" href="">
-                  <p>Demo</p><img src={badge} alt="" />
-                </li>
+                <a href="https://github.com/michel-raupp/project-pokedex" target="_blank" rel="noopener noreferrer">
+                  <li className="github">
+                    <p>Github</p><img src={arrow} alt="github" />
+                  </li>
+                </a>
+                <a href="https://project-pokedex-three.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <li className="website">
+                    <p>Demo</p><img src={arrow} alt="view demo" />
+                  </li>
+                </a>
               </ul>
             </Botoes>
           </div>
@@ -29,19 +34,23 @@ const Frontend = () => {
       <hr />
       <ModalContent>
         <div className='content'>
-          <img className='preview' src={ellie} alt='' />
+          <img className='preview' src={preview2} alt='' />
           <div className='info'>
             <h3>THE GYM</h3>
             <p>A Gym landing Page using ReactJS and Styled Components, with responsive menus, contact form and buttons.
             </p>
             <Botoes>
               <ul className="wrapper">
-                <li className="github" href="">
-                  <p>Github</p><img src={badge} alt="" />
-                </li>
-                <li className="website" href="">
-                <p>Demo</p><img src={badge} alt="" />
-                </li>
+                <a href="https://github.com/michel-raupp/gym-project" target="_blank" rel="noopener noreferrer">
+                  <li className="github">
+                    <p>Github</p><img src={arrow} alt="github" />
+                  </li>
+                </a>
+                <a href="https://gym-project-eight.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <li className="website">
+                    <p>Demo</p><img src={arrow} alt="view demo" />
+                  </li>
+                </a>
               </ul>
             </Botoes>
           </div>
@@ -50,19 +59,18 @@ const Frontend = () => {
       <hr />
       <ModalContent>
         <div className='content'>
-          <img className='preview' src={ellie} alt='' />
+          <img className='preview' src={preview2} alt='' />
           <div className='info'>
             <h3>Portifolio</h3>
             <p>This is my Portifolio website that you're looking right now. Built with ReactJS and Styled Components.
             </p>
             <Botoes>
               <ul className="wrapper">
-                <li className="github" href="">
-                  <p>Github</p><img src={badge} alt="" />
-                </li>
-                <li className="website" href="">
-                <p>Demo</p><img src={badge} alt="" />
-                </li>
+                <a href="https://github.com/michel-raupp/portifolio" target="_blank" rel="noopener noreferrer">
+                  <li className="github">
+                    <p>Github</p><img src={arrow} alt="github" />
+                  </li>
+                </a>
               </ul>
             </Botoes>
           </div>

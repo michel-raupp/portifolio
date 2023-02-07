@@ -5,8 +5,7 @@ export const ProfileIMG = styled.img`
     border-radius: 20px;
     width: 450px;
     height: 450px;
-    background: ${Colors.black};
-
+    filter: saturate(0);
     @media (max-width: 500px){
         width: 90%;
         height: 90%;
@@ -49,7 +48,7 @@ export const Download = styled(Container)`
         --tooltip-height: 35px;
         --tooltip-width: 90px;
         --gap-between-tooltip-to-button: 18px;
-        --button-color: ${Colors.primary};
+        --button-color: ${Colors.black};
         --tooltip-color: #fff;
         width: var(--width);
         height: var(--height);
@@ -60,7 +59,7 @@ export const Download = styled(Container)`
         font-family: "Poppins", sans-serif;
         font-size: ${FontSizes.wolf};
         transition: background 0.3s;
-        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        //box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
     }
 
     .button::before {
@@ -127,7 +126,7 @@ export const Download = styled(Container)`
     }
 
     .button:hover {
-        background: ${Colors.secondary};
+        background: ${Colors.primary};
     }
 
     .button:hover .text {

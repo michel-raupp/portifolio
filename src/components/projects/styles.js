@@ -40,11 +40,12 @@ export const ProjectsCard = styled(Box)`
     .technology-used{
         width: 40px;
         height: 40px;
+        margin-right: 5px;
         bottom: 0;
     }
 
     .view-more{
-        color: ${Colors.secondary};
+        color: ${Colors.black};
         font-size: ${FontSizes.cat};
         display: inline-flex;
         align-items: center;
@@ -62,7 +63,6 @@ export const ProjectsCard = styled(Box)`
         transform: translateX(0.5rem);
     }
 
-
     .projectsModal{
         overflow-y:scroll;
         overflow-x:hidden;
@@ -72,7 +72,7 @@ export const ProjectsCard = styled(Box)`
         left: 0;
         bottom: 0%;
         background-color: rgb(0, 0, 0, 0.5);
-        z-index: 2;
+        z-index: 99;
 
         display: flex;
         justify-content: center;

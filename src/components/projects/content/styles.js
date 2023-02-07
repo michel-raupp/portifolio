@@ -13,7 +13,7 @@ export const Conteudo = styled(Column)`
             justify-content: center;
             align-items: center;
             color: ${Colors.white};
-            background-color: ${Colors.black};
+            background: rgba(0, 0, 20, 1);
             text-align: center;
             cursor: pointer;
 
@@ -29,7 +29,7 @@ export const Conteudo = styled(Column)`
             
             :hover{
                 transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-                background: ${Colors.terciary};
+                background: ${Colors.primary};
             }
         }
 
@@ -38,18 +38,28 @@ export const Conteudo = styled(Column)`
             height: 200px;
             
             @media(max-width: 750px){
-                width: 150px;
-                height: 150px;
+                width: 220px;
+                height: 220px;
             }
 
             @media(max-width: 600px){
-                width: 100px;
-                height: 100px;
+                width: 200px;
+                height: 200px;
                 font-size: 12px;
             }
-            @media(max-width: 390px){
-                width: 80px;
-                height: 80px;
+            @media(max-width: 500px){
+                width: 180px;
+                height: 180px;
+            }
+            @media(max-width: 420px){
+                width: 135px;
+                height: 140px;
+            }
+        }
+
+        .hide-drawing{
+            @media(max-width: 750px){
+                    display: none;
             }
         }
     }
@@ -123,6 +133,9 @@ export const ModalContent = styled(Container)`
 `
 
 export const Botoes = styled.div`
+    a{
+        text-decoration: none;
+    }
     .wrapper {
     display: flex;
     gap: 10px;
@@ -143,6 +156,10 @@ export const Botoes = styled.div`
         background: ${Colors.black};
         cursor: pointer;
         box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
+        img{
+            width: 20px;
+        }
 
         p{
             font-family: "Poppins", sans-serif;
