@@ -17,7 +17,6 @@ const Illustrations = () => {
     <Conteudo>
       <div className='illustrations-img'>
         <Container style={{ gap: "5px" }}>
-<<<<<<< HEAD
           <img className='hide-drawing'
             src={drawing1} alt="" />
           <img src={drawing2} alt="" />
@@ -33,20 +32,6 @@ const Illustrations = () => {
           <img className='hide-drawing'
             src={drawing7} alt="" />
           <img src={drawing8} alt="" />
-=======
-          <img src={drawing1} alt="" href="" />
-          <img src={drawing2} alt="" href="" />
-          <img src={drawing3} alt="" href="" />
-        </Container>
-        <Container style={{ gap: "5px" }}>
-          <img src={drawing4} alt="" href="" />
-          <img src={drawing5} alt="" href="" />
-          <img src={drawing6} alt="" href="" />
-        </Container>
-        <Container style={{ gap: "5px" }}>
-          <img src={drawing7} alt="" href="" />
-          <img src={drawing8} alt="" href="" />
->>>>>>> 42d02d46355fd6bbf065e7f4cec61da516bf2736
           <a href="https://www.instagram.com/rauppstein/" target="_blank" rel="noopener noreferrer">
             <span className="instagram">
               View more
