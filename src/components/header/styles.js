@@ -8,11 +8,6 @@ export const Circle = styled.img`
     border-radius: 50%;
     align-self: center;
     justify-self: center;
-<<<<<<< HEAD
-    
-=======
-    filter: saturate(0);
->>>>>>> 42d02d46355fd6bbf065e7f4cec61da516bf2736
 
     @media (max-width: 1100px){
         width: 400px;
