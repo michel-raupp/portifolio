@@ -8,7 +8,7 @@ import { Coisas, ReverseSection } from "../../styles/styles";
 import profile1 from "../../assets/imgs/profile1.jpg"
 function Header() {
     return (
-        <ReverseSection id="home">
+        <ReverseSection id="home" style={{marginTop: "100px"}}>
             <Coisas>
                 <Title>Michel Raupp</Title>
                 <Subtitle>
