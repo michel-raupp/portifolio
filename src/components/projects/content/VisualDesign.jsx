@@ -12,14 +12,16 @@ const VisualDesign = () => {
         <div className='content'>
           <img className='preview' src={cf1} alt='' />
           <div className='info'>
-            <h3>Crypto Farms HUDs</h3>
-            <p>Created game HUDs and the UX/UI of the blockchain game Crypto Farms Land.
+            <h3>Game HUDs | UX | UI</h3>
+            <p>Designed game HUDs and the user experience for the browser game Crypto Farms Land.
             </p>
             <Botoes>
               <ul className="wrapper">
-                <li className="github" href="">
-                  <p>Figma</p><img src={arrow} alt="" />
-                </li>
+                <a href="https://www.figma.com/proto/txUeGuOjqFXpbTXcrxQqeU/Game-HUDs?node-id=1%3A2&scaling=scale-down-width&page-id=0%3A1" target="_blank" rel="noopener noreferrer">
+                  <li className="github">
+                    <p>Figma (view images)</p><img src={arrow} alt="view demo" />
+                  </li>
+                </a>
               </ul>
             </Botoes>
           </div>
@@ -30,14 +32,16 @@ const VisualDesign = () => {
         <div className='content'>
           <img className='preview' src={cf2} alt='' />
           <div className='info'>
-            <h3>Character Design</h3>
-            <p>Illustrations of troops, enemies and citzen NPCs, based on a Cyberpunk theme.
+            <h3>2D Artist | Game Design</h3>
+            <p>Designed and illustrated sprites, scenaries, troops, NPCs and icons for Crypto Farms Land.
             </p>
             <Botoes>
               <ul className="wrapper">
-                <li className="github" href="">
-                  <p>Figma</p><img src={arrow} alt="" />
-                </li>
+                <a href="https://www.figma.com/proto/JLnxkoj4zZVSrEcCvj0bZY/Untitled?node-id=1%3A2&scaling=scale-down-width&page-id=0%3A1" target="_blank" rel="noopener noreferrer">
+                  <li className="github">
+                    <p>Figma (view images)</p><img src={arrow} alt="view demo" />
+                  </li>
+                </a>
               </ul>
             </Botoes>
           </div>
@@ -48,14 +52,21 @@ const VisualDesign = () => {
         <div className='content'>
           <img className='preview' src={cf3} alt='' />
           <div className='info'>
-            <h3>Game website rebrand</h3>
-            <p>The rebrand was based on transforming a simple website on a gaming hub.
+            <h3>Website Rebranding</h3>
+            <p>Created a background story for the game and designed the website to look more like a game.
             </p>
             <Botoes>
               <ul className="wrapper">
-                <li className="github" href="">
-                  <p>Figma</p><img src={arrow} alt="" />
-                </li>
+                <a href="https://www.figma.com/proto/8MsF2to60KmsvodrsQMCru/Untitled?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1" target="_blank" rel="noopener noreferrer">
+                  <li className="github">
+                    <p>Figma</p><img src={arrow} alt="Figma" />
+                  </li>
+                </a>
+                <a href="https://youtu.be/ub_jb2S0SEM" target="_blank" rel="noopener noreferrer">
+                  <li className="website">
+                    <p>Youtube</p><img src={arrow} alt="view video preview" />
+                  </li>
+                </a>
               </ul>
             </Botoes>
           </div>

@@ -4,11 +4,12 @@ import Insta from "../../assets/icons/instagram.svg"
 import Github from "../../assets/icons/github.png"
 import Email from "../../assets/icons/email.png"
 import Linkedin from "../../assets/icons/linkedin.png"
-import { Coisas, ReverseSection } from "../../styles/styles";
+import { Coisas, HeaderSection} from "../../styles/styles";
 import profile1 from "../../assets/imgs/profile1.jpg"
 function Header() {
     return (
-        <ReverseSection id="home" style={{marginTop: "100px"}}>
+        
+        <HeaderSection id="home">
             <Coisas>
                 <Title>Michel Raupp</Title>
                 <Subtitle>
@@ -52,10 +53,10 @@ function Header() {
                             </li>
                         </a>
                     </ul>
-                </Socials >
+                </Socials >  
             </ Coisas >
             <Circle src={profile1} />
-        </ ReverseSection >
+        </ HeaderSection >
     );
 }
 

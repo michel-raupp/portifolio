@@ -66,7 +66,18 @@ export const Section = styled(Container)`
 export const ReverseSection = styled(Section)`
     @media (max-width: 1000px){
             flex-direction: column-reverse;
-    }   
+    }     
+`
+
+export const HeaderSection = styled(ReverseSection)`
+    padding-top: 200px;
+
+    @media (max-width: 1000px){
+        padding-top: 170px;
+    } 
+    @media (max-width: 550px){
+        padding-top: 130px;
+    } 
 `
 
 export const Coisas = styled(Column)`

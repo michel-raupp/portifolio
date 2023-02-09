@@ -63,24 +63,24 @@ class Navbar extends Component {
                         className={this.state.clicked ? "#navbar active" : "#navbar"}
                     >
                         <li className="first">
-                            <a href="#home">
+                            <a href="#home" onClick={() =>this.setState({clicked: false})}>
                                 <p>Home</p>
                             </a>
                         </li>
                         <li>
-                            <a href="#about"><p>About</p></a>
+                            <a href="#about" onClick={() =>this.setState({clicked: false})}><p>About</p></a>
                         </li>
                         <li>
-                            <a href="#skills"><p>Skills</p></a>
+                            <a href="#skills" onClick={() =>this.setState({clicked: false})}><p>Skills</p></a>
                         </li>
                         <li>
-                            <a href="#projects"><p>Projects</p></a>
+                            <a href="#projects" onClick={() =>this.setState({clicked: false})}><p>Projects</p></a>
                         </li>
                         <li>
-                            <a href="#work"><p>Work</p></a>
+                            <a href="#work" onClick={() =>this.setState({clicked: false})}><p>Work</p></a>
                         </li>
                         <li>
-                            <a href="#contact"><p>Contact</p></a>
+                            <a href="#contact" onClick={() =>this.setState({clicked: false})}><p>Contact</p></a>
                         </li>
                     </Menu>
                 </div>

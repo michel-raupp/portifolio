@@ -67,7 +67,8 @@ export const Conteudo = styled(Column)`
 
 export const ModalContent = styled(Container)`
     overflow: none;
-    
+    justify-content: flex-start;
+    align-items: flex-start;
     .content{
         display: flex;
         gap: 30px;

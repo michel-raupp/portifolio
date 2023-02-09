@@ -21,13 +21,13 @@ const Work = () => {
                         <WorkImg>
                             <img src={cf2} alt="" />
                             <div className='titleV2'>
-                                <h3>Concept Artist | UX | UI</h3>
+                                <h3>2D Artist | UX | UI</h3>
                                 <p>at Crypto Farms Land</p>
                             </div>
                         </WorkImg>
                         <div className='infos'>
                             <div className='title'>
-                                <h3>Concept Artist | UX | UI</h3>
+                                <h3>2D Artist | UX | UI</h3>
                                 <p>Crypto Farms Land</p>
                             </div>
                             <p>
@@ -44,13 +44,13 @@ const Work = () => {
                         <WorkImg>
                             <img src={cf4} alt="" />
                             <div className='titleV2'>
-                                <h3>Digital Artist</h3>
+                                <h3>2D Artist</h3>
                                 <p>at Crypto Farms NFT</p>
                             </div>
                         </WorkImg>
                         <div className='infos'>
                             <div className='title'>
-                                <h3>Digital Artist</h3>
+                                <h3>2D Artist</h3>
                                 <p>Crypto Farms NFT</p>
                             </div>
                             <p>
