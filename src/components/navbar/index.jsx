@@ -10,50 +10,6 @@ class Navbar extends Component {
 
     render() {
         return (
-            // <NavbarContent>
-            //     <nav className={this.state.clicked ? "#navbar active" : "#navbar"}>
-            //         <h2 className="logo">Raupp</h2>
-            //         <ul>
-            //             <li>
-            //                 <a href="">
-            //                     <img src={tech5} alt="" />
-            //                     <p>Home</p>
-            //                 </a>
-            //             </li>
-            //             <li>
-            //                 <a href="">
-            //                     <img src={tech5} alt="" />
-            //                     <p>About</p>
-            //                 </a>
-            //             </li>
-            //             <li>
-            //                 <a href="">
-            //                     <img src={tech5} alt="" />
-            //                     <p>Skills</p>
-            //                 </a>
-            //             </li>
-            //             <li>
-            //                 <a href="">
-            //                     <img src={tech5} alt="" />
-            //                     <p>Portifolio</p>
-            //                 </a>
-            //             </li>
-            //             <li>
-            //                 <a href="">
-            //                     <img src={tech5} alt="" />
-            //                     <p>Work</p>
-            //                 </a>
-            //             </li>
-            //             <li>
-            //                 <a href="">
-            //                     <img src={tech5} alt="" />
-            //                     <p>Contact</p>
-            //                 </a>
-            //             </li>
-            //         </ul>
-            //         <a className="toggle"><img src={tech5} alt="" /></a>
-            //     </nav>
-            // </NavbarContent>
             <NavbarSection>
                 <Logo>Raupp</Logo>
 

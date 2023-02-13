@@ -51,6 +51,7 @@ export const ProjectsCard = styled(Box)`
         align-items: center;
         column-gap: 0.25rem;
         cursor: pointer;
+        pointer-events: auto; 
         transition: 0.5s;
 
         img{
@@ -64,34 +65,41 @@ export const ProjectsCard = styled(Box)`
     }
 
     .projectsModal{
-        overflow-y:scroll;
+        /* pointer-events: none; */
+        overflow-y: scroll;
         overflow-x:hidden;
         position: fixed;
-        top: 0;
+
+        /* left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%); */
+
+         top:  0;
         right: 0;
         left: 0;
-        bottom: 0%;
-        background-color: rgb(0, 0, 0, 0.5);
+        bottom: 0; 
         z-index: 99;
-
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 1rem;
+        padding: 0.5rem;
         opacity: 0;
         visibility: hidden;
         transition: 0.5s;
+        
     }
 
     .projectsModal-content{
-        width: 800px;
+        max-width: 800px;
         position: relative;
         background-color: ${Colors.white};
-        padding: 2.5rem;
+        padding: 2.5rem 3rem;
         border-radius: 20px;
-
+        /* width: min-content */
+        pointer-events: auto; 
+        transition: 0.5s ease-in-out;
         @media(max-width: 600px){
-            padding: 2rem 1rem;
+            padding: 2rem 3rem;
         }
         @media(max-width: 450px){
             margin-top: 680px;//this margin doesn't work on Illustrations.jsx due the INLINE fixed margin on the line 102 of index.js
@@ -111,7 +119,7 @@ export const ProjectsCard = styled(Box)`
         width: 40px;
         height: 40px;
         cursor: pointer;
-
+        pointer-events: auto; 
         @media(max-width: 600px){
             top: 1rem;
             right: 1rem;
@@ -155,3 +163,28 @@ export const ProjectsCard = styled(Box)`
         opacity: 1;
     }
 `
+
+
+
+export const ProjectsSection = styled(Container)` 
+    .backgroundModal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 98;
+    width: 100%;
+    min-height: 100vh;
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    
+    }
+
+    .active{
+        visibility: visible;
+        opacity: 1;
+
+}`

@@ -3,6 +3,7 @@ import { Botoes, Conteudo, ModalContent } from './styles'
 import arrow from "../../../assets/arrow-right.svg";
 import preview1 from "../../../assets/preview/pokedex.jpg"
 import preview2 from "../../../assets/preview/the-gym.jpg"
+import preview3 from "../../../assets/preview/portifolio.jpg"
 
 const Frontend = () => {
   return (
@@ -12,7 +13,7 @@ const Frontend = () => {
           <img className='preview' src={preview1} alt='' />
           <div className='info'>
             <h3>Pokédex project</h3>
-            <p>You can search for a Pokémon on the Seach Tab. Created using ReactJS, Axios and PokéAPI.
+            <p>You can search for a Pokémon on the Seach Tab. It was created using ReactJS, Axios and PokéAPI.
             </p>
             <Botoes>
               <ul className="wrapper">
@@ -37,7 +38,7 @@ const Frontend = () => {
           <img className='preview' src={preview2} alt='' />
           <div className='info'>
             <h3>THE GYM</h3>
-            <p>A Gym landing Page using ReactJS and Styled Components, with responsive menus, contact form and buttons.
+            <p>A gym landing page using ReactJS and Styled Components, featuring responsive menus, contact form, and buttons.
             </p>
             <Botoes>
               <ul className="wrapper">
@@ -59,7 +60,7 @@ const Frontend = () => {
       <hr />
       <ModalContent>
         <div className='content'>
-          <img className='preview' src={preview2} alt='' />
+          <img className='preview' src={preview3} alt='' />
           <div className='info'>
             <h3>Portifolio</h3>
             <p>This is my Portifolio website that you're looking right now. Built with ReactJS and Styled Components.

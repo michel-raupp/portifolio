@@ -15,9 +15,11 @@ function About() {
                     <ProfileIMG src={profile2}/>
                     <CoisasAbout>
                         <Coisas style={{ gap: '30px' }}>
-                            <p>I am a 21 years old brazilian who’s studying Systems of Information degree. I’m advanced on English, I like to draw everyday, workout and read some dystopic histories books. </p>
-                            <p>Since december 2021 I’ve been working on the blockchain game Crypto Farms as co-funder and Designer.</p>
-                            <p>During this time I learned about the branding process, how to design a product, prototyping projects, illustrate Concept Arts, UI Design and Frontend Development.</p>
+                            <p>I am a 21 years old Brazilian who's studying for a degree in Information Systems. I am proficient in English and enjoy drawing every day, working out, and reading dystopian story books. </p>
+                            <p>Since december 2021 I’ve been working on the blockchain game Crypto Farms as co-funder and designer.</p>
+                            <p>During this time, I have learned about the branding process, product design, project prototyping, concept art illustration, UI design, and front-end development.</p>
+
+                            
                         </Coisas>
                         <Download>
                             <div data-tooltip="Size: 160KB" className="button">

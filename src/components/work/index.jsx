@@ -13,7 +13,7 @@ const Work = () => {
             <Column>
                 <SectionTitle>
                     <h2>Work</h2>
-                    <h3>What kind of experiences I got from my jobs?</h3>
+                    <h3>What kind of experiences I got from my past jobs?</h3>
                 </SectionTitle>
 
                 <WorkContainer>
@@ -31,8 +31,9 @@ const Work = () => {
                                 <p>Crypto Farms Land</p>
                             </div>
                             <p>
-                                The CF Land is a browser game under development, based on games like Clash of Clans and Tribal Wars, which you have your own Land and you can upgrade buildings, train troops, attack other player’s Lands, with RPG features like heroes and gears.
-                                During this project I learned how to create Pixel Arts, how to develop proper Game HUDs and create the things thinking about the mobile user experience.
+                            CF Land is a browser game under development, inspired by games like Clash of Clans and Tribal Wars. In the game, players have their own Land where they can upgrade buildings, train troops, attack other players' Lands, and enjoy RPG features such as heroes and gear.
+
+                            Working on this project, I learned how to create Pixel Art, develop effective game HUDs, and design with the mobile user experience in mind.
                             </p>
                             <p className='date'>July 2022 ~ now</p>
                         </div>
@@ -54,8 +55,9 @@ const Work = () => {
                                 <p>Crypto Farms NFT</p>
                             </div>
                             <p>
-                                Crypto Farms is a NFT Play to Earn game project, on Wax Blockchain. The project had more than $ 2 millions volume on Atomic Hub marketplace.
-                                I worked on it as co-funder and Digital Artist, planning the branding around the Crypto Farms, creating Illustrations for the NFTs, the best UI design for the game and developing concept arts for the project.
+                            Crypto Farms is a NFT "Play to Earn" game project on the Wax Blockchain. The project has had more than $2 million in volume on the Atomic Hub marketplace. 
+
+                            I worked on it as a co-founder and digital artist, where I was responsible for planning the branding for Crypto Farms, creating illustrations for the NFTs, designing the UI for the game, and developing concept arts for the project.
                             </p>
                             <p className='date'>December 2021 ~ July 2022</p>
                         </div>
@@ -77,9 +79,9 @@ const Work = () => {
                                 <p>Fraternidade Crypto</p>
                             </div>
                             <p>
-                                Fraternidade Crypto was one of the biggest Blog specialized on Play to Earn and NFT news. I worked as a content creator for the blog doing thumbnails, customized Ads banners and creating own images to the writer use on the news.
-
-                                I also worked as a Youtube Editor for the Fraternidade Crypto, which my job was basicaly create “Shorts” about their channel, creating thumbnails and also intros for the channel.
+                            Fraternidade Crypto was one of the biggest blogs specializing in "Play to Earn" and NFT news. I worked as a content creator for the blog, creating thumbnails, customizing ads banners, and creating original images for the writers to use in their articles. 
+                            
+                            I also worked as a YouTube editor for Fraternidade Crypto, where my job was mainly to create "shorts" for their channel, design thumbnails, and create intros for the channel.
                             </p>
                             <p className='date'>August 2021 ~ March 2022</p>
                         </div>

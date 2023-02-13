@@ -16,7 +16,7 @@ export const Conteudo = styled(Column)`
             background: rgba(0, 0, 20, 1);
             text-align: center;
             cursor: pointer;
-
+            pointer-events: auto; 
             img{
                 height: 20px;
                 width: 20px;
@@ -113,6 +113,7 @@ export const ModalContent = styled(Container)`
             font-weight: 600;
         }
         p{
+            width: 100%;
             font-size: ${FontSizes.rat};
         }
 
@@ -135,6 +136,7 @@ export const ModalContent = styled(Container)`
 
 export const Botoes = styled.div`
     a{
+        pointer-events: auto; 
         text-decoration: none;
     }
     .wrapper {

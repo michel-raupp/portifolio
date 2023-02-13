@@ -20,8 +20,9 @@ function Footer() {
                     <div className="Line" />
                 </Subtitle>
                 <p>
-                    Thank you for your time reading my Portifolio, I hope it was a great experience! 
-                    Feel free to contact me and take a look on my GitHub, have a nice day!
+                    Thank you for taking the time to read my portfolio. I hope it was a great experience!
+
+                    Please feel free to contact me and check out my GitHub. Have a nice day!
                 </p>
                 <Socials>
                     <ul className="wrapper">
