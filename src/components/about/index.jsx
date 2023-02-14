@@ -23,7 +23,7 @@ function About() {
                         </Coisas>
                         <Download>
                             <div data-tooltip="Size: 26KB" className="button">
-                                <a href={doc} download="Michel-Raupp-CV">
+                                <a href={doc} download="Michel-Raupp-CV0">
                                     <div className="button-wrapper">
                                         <div className="text">Download CV</div>
                                         <span className="icon">
