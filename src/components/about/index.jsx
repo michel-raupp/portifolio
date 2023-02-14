@@ -1,7 +1,8 @@
 import React from "react";
 import { Coisas, Column, Section, SectionTitle } from "../../styles/styles";
 import { CoisasAbout, Download, ProfileIMG } from "./styles";
-import profile2 from "../../assets/imgs/profile2.jpg"
+import profile2 from "../../assets/imgs/profile2.jpg";
+import doc from "../../assets/CV-Michel-Raupp.docx";
 
 function About() {
     return (
@@ -22,7 +23,7 @@ function About() {
                         </Coisas>
                         <Download>
                             <div data-tooltip="Size: 26KB" className="button">
-                                <a href="../../assets/CV-Michel-Raupp.docx" download="">
+                                <a href={doc} download="Michel-Raupp-CV">
                                     <div className="button-wrapper">
                                         <div className="text">Download CV</div>
                                         <span className="icon">

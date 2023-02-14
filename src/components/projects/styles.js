@@ -146,37 +146,28 @@ export const ProjectsCard = styled(Box)`
             font-size: ${FontSizes.rat};
         }
     }
-
     .active-modal{
         visibility: visible;
         opacity: 1;
     }
 `
 
-
-
 export const ProjectsSection = styled(Container)` 
-    .backgroundModal{
-        
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 98;
-    width: 100%;
-    min-height: 100vh;
-    transition: 0.5s;
-    background-color: rgb(0, 0, 0, 0.5);
-    visibility: hidden;
-    opacity: 0;
-    
+    .backgroundModal{     
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 98;
+        width: 100%;
+        min-height: 100vh;
+        transition: 0.5s;
+        background-color: rgb(0, 0, 0, 0.5);
+        visibility: hidden;
+        opacity: 0;
     }
-
     .active{
         visibility: visible;
         opacity: 1;
-
 }`
-
-
