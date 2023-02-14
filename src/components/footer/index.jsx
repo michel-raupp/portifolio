@@ -1,5 +1,5 @@
 import React from "react";
-import { Circle, Title, Subtitle, Socials } from "../header/styles";
+import { Circle, Subtitle, Socials } from "../header/styles";
 import Insta from "../../assets/icons/instagram.svg"
 import Github from "../../assets/icons/github.png"
 import Email from "../../assets/icons/email.png"
@@ -8,12 +8,12 @@ import { Coisas} from "../../styles/styles";
 import { FooterSection } from "./styles";
 
 import drawing1 from "../../assets/imgs/drawing1.jpg"
-import artist from "../../assets/man-artist.png"
+import artist from "../../assets/icons/man-artist.png"
 function Footer() {
     return (
         <FooterSection id="contact">
             <Coisas>
-                <Title><h1 className="footer-title">Still Interested?</h1></Title>
+                <h1 className="footer-title">Still Interested?</h1>
                 <Subtitle>
                     <div className="Line" />
                     <img className="artist" src={artist} alt=""/>
@@ -33,7 +33,7 @@ function Footer() {
                                 <span><i className="fab fa-github-f"></i></span>
                             </li>
                         </a>
-                        <a href="https://www.instagram.com/rauppstein/" target="_blank" rel="noopener noreferrer">
+                        <a href="mailto:michelraupp@outlook.com" target="_blank" rel="noopener noreferrer">
                             <li className="icon email">
                                 <img src={Email} alt="Email" />
                                 <span className="tooltip">Email</span>

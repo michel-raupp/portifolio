@@ -1,6 +1,6 @@
 import React from "react";
 import { SkillCard } from "./styles";
-import badge from "../../assets/bxs-badge-check.svg";
+import badge from "../../assets/icons/bxs-badge-check.svg";
 
 const Hardskills = () => {
     return (

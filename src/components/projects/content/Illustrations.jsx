@@ -10,7 +10,7 @@ import drawing6 from "../../../assets/imgs/drawing6.jpg"
 import drawing7 from "../../../assets/imgs/drawing7.jpg"
 import drawing8 from "../../../assets/imgs/drawing8.jpg"
 
-import arrow from "../../../assets/arrow-right.svg";
+import arrow from "../../../assets/icons/arrow-right.svg";
 
 const Illustrations = () => {
   return (

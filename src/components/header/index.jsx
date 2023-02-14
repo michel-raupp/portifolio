@@ -20,7 +20,7 @@ function Header() {
                 <p>
                     I’m a focused designer who is currently studying Frontend programming.
                     I worked for a blockchain game as concept artist and UX/UI developer for the last year,
-                    and now Im trying to develop my skills on new projects.
+                    and now I'm trying to develop my skills on new projects.
                 </p>
                 <Socials>
                     <ul className="wrapper">
@@ -31,7 +31,7 @@ function Header() {
                                 <span><i className="fab fa-github-f"></i></span>
                             </li>
                         </a>
-                        <a href="https://www.instagram.com/rauppstein/" target="_blank" rel="noopener noreferrer">
+                        <a href="mailto:michelraupp@outlook.com" target="_blank" rel="noopener noreferrer">
                             <li className="icon email">
                                 <img src={Email} alt="Email" />
                                 <span className="tooltip">Email</span>

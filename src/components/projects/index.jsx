@@ -9,8 +9,8 @@ import tech4 from "../../assets/icons/css-icon.png";
 import tech5 from "../../assets/icons/figma.png";
 import tech6 from "../../assets/icons/photoshop.png";
 
-import arrow2 from "../../assets/angle-double-right.svg";
-import close from "../../assets/times.svg";
+import arrow2 from "../../assets/icons/angle-double-right.svg";
+import close from "../../assets/icons/times.svg";
 
 import Frontend from "./content/Frontend";
 import VisualDesign from "./content/VisualDesign";
@@ -95,20 +95,19 @@ const Projects = () => {
                             <span className="view-more" onClick={() => toggleTab(3)}>
                                 View more
                                 <img src={arrow2} alt="" /></span>
-
-                            <div className={toggleState === 3 ? "projectsModal active-modal" : "projectsModal"}>
-                                <div className="projectsModal-content" style={{ marginTop: "0" }}>
-                                    <img className="close-modal" src={close} alt="" onClick={() => toggleTab(0)} />
-                                    <h3 className="projectsModal-title">Personal Illustrations</h3>
-                                    <p className="projectsModal-description">Some drawings o' mine</p>
-                                    <Illustrations />
+                                <div className={toggleState === 3 ? "projectsModal active-modal" : "projectsModal"}>
+                                    <div className="projectsModal-content" style={{ marginTop: "0" }}>
+                                        <img className="close-modal" src={close} alt="" onClick={() => toggleTab(0)} />
+                                        <h3 className="projectsModal-title">Personal Illustrations</h3>
+                                        <p className="projectsModal-description">Some drawings o' mine</p>
+                                        <Illustrations />
+                                    </div>
                                 </div>
-                            </div>
                         </ProjectsCard>
                     </ProjectsContainer>
                 </Column >
             </Section >
-            <div className={ toggleState === 3 || toggleState === 2 || toggleState === 1 ? "backgroundModal active" : "backgroundModal"} onClick={() => toggleTab(0)} />
+            <div className={toggleState === 3 || toggleState === 2 || toggleState === 1 ? "backgroundModal active" : "backgroundModal"} onClick={() => toggleTab(0)} />
         </ProjectsSection>
     );
 }

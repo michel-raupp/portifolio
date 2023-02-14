@@ -42,7 +42,6 @@ export const Download = styled(Container)`
     }
 
     .button {
-        
         --width: 200px;
         --height: 65px;
         --tooltip-height: 35px;

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Botoes, Conteudo, ModalContent } from './styles'
-import arrow from "../../../assets/arrow-right.svg";
+import arrow from "../../../assets/icons/arrow-right.svg";
 import preview1 from "../../../assets/preview/pokedex.jpg"
 import preview2 from "../../../assets/preview/the-gym.jpg"
 import preview3 from "../../../assets/preview/portifolio.jpg"

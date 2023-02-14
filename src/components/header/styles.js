@@ -38,17 +38,6 @@ export const Title = styled.h1`
     @media (max-width: 380px){
         font-size: 40px;
     }
-
-    .footer-title{
-        font-size: 63px;
-        line-height: normal;
-        @media (max-width: 550px){
-            font-size: 43px;
-        }
-        @media (max-width: 380px){
-            font-size: 35px;
-        }
-    }
 `
 
 export const Subtitle = styled(Container)`
@@ -141,36 +130,36 @@ export const Socials = styled(Container)`
     }
 
     .wrapper .tooltip {
-    position: absolute;
-    top: 0;
-    font-size: 14px;
-    background: #fff;
-    color: #fff;
-    padding: 5px 8px;
-    border-radius: 5px;
-    //box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        position: absolute;
+        top: 0;
+        font-size: 14px;
+        background: #fff;
+        color: #fff;
+        padding: 5px 8px;
+        border-radius: 5px;
+        //box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
 
     .wrapper .tooltip::before {
-    position: absolute;
-    content: "";
-    height: 8px;
-    width: 8px;
-    background: #fff;
-    bottom: -3px;
-    left: 50%;
-    transform: translate(-50%) rotate(45deg);
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        position: absolute;
+        content: "";
+        height: 8px;
+        width: 8px;
+        background: #fff;
+        bottom: -3px;
+        left: 50%;
+        transform: translate(-50%) rotate(45deg);
+        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
 
     .wrapper .icon:hover .tooltip {
-    top: -45px;
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
+        top: -45px;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
     }
 
     .wrapper .icon:hover span,
@@ -182,27 +171,27 @@ export const Socials = styled(Container)`
     .wrapper .github:hover .tooltip,
     .wrapper .github:hover .tooltip::before {
         background: ${Colors.primary};
-    color: #fff;
+        color: #fff;
     }
 
     .wrapper .email:hover,
     .wrapper .email:hover .tooltip,
     .wrapper .email:hover .tooltip::before {
-    background: ${Colors.terciary};
-    color: #fff;
+        background: ${Colors.terciary};
+        color: #fff;
     }
 
     .wrapper .instagram:hover,
     .wrapper .instagram:hover .tooltip,
     .wrapper .instagram:hover .tooltip::before {
-    background: ${Colors.secondary};
-    color: #fff;
+        background: ${Colors.secondary};
+        color: #fff;
     }
 
     .wrapper .linkedin:hover,
     .wrapper .linkedin:hover .tooltip,
     .wrapper .linkedin:hover .tooltip::before {
-    background: ${Colors.red};
-    color: #fff;
+        background: ${Colors.red};
+        color: #fff;
     }
 `

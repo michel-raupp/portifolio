@@ -44,6 +44,10 @@ export const Column = styled(Container)`
         margin:30px 0;
         width: 95%;
         align-self: center;
+
+        @media(max-width: 450px){
+            margin:15px 0;
+        }
     }
 `
 export const Section = styled(Container)`
@@ -104,7 +108,22 @@ export const Coisas = styled(Column)`
             font-size: ${FontSizes.rat};
         }
     }
-    
+    .footer-title{
+        font-weight: 700;
+        font-size: 63px;
+        line-height: normal;
+        
+        @media (max-width: 550px){
+            font-size: 50px;
+        }
+        @media (max-width: 450px){
+            font-size: 42px;
+        }
+
+        @media (max-width: 380px){
+            font-size: 35px;
+        }
+    }
 `
 
 export const SectionTitle = styled(Container)`

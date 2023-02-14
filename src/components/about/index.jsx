@@ -19,11 +19,10 @@ function About() {
                             <p>Since december 2021 I’ve been working on the blockchain game Crypto Farms as co-funder and designer.</p>
                             <p>During this time, I have learned about the branding process, product design, project prototyping, concept art illustration, UI design, and front-end development.</p>
 
-                            
                         </Coisas>
                         <Download>
-                            <div data-tooltip="Size: 160KB" className="button">
-                                <a href="https://github.com/michel-raupp/gym-project" target="_blank" and rel="noopener noreferrer">
+                            <div data-tooltip="Size: 26KB" className="button">
+                                <a href="../../assets/CV-Michel-Raupp.docx" download="">
                                     <div className="button-wrapper">
                                         <div className="text">Download CV</div>
                                         <span className="icon">

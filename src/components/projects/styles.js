@@ -17,7 +17,6 @@ export const ProjectsContainer = styled(Container)`
 `
 
 export const ProjectsCard = styled(Box)`
-
     position: relative;
     justify-content: space-between;
     padding: 1.5rem;
@@ -65,19 +64,9 @@ export const ProjectsCard = styled(Box)`
     }
 
     .projectsModal{
-        /* pointer-events: none; */
         overflow-y: scroll;
-        overflow-x:hidden;
         position: fixed;
-
-        /* left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%); */
-
-         top:  0;
-        right: 0;
-        left: 0;
-        bottom: 0; 
+        inset: 0;
         z-index: 99;
         display: flex;
         justify-content: center;
@@ -86,7 +75,6 @@ export const ProjectsCard = styled(Box)`
         opacity: 0;
         visibility: hidden;
         transition: 0.5s;
-        
     }
 
     .projectsModal-content{
@@ -99,10 +87,11 @@ export const ProjectsCard = styled(Box)`
         pointer-events: auto; 
         transition: 0.5s ease-in-out;
         @media(max-width: 600px){
-            padding: 2rem 3rem;
+            padding: 2rem 2rem;
         }
         @media(max-width: 450px){
             margin-top: 680px;//this margin doesn't work on Illustrations.jsx due the INLINE fixed margin on the line 102 of index.js
+            padding: 2rem 1rem;
         }
         @media(max-width: 430px){
             margin-top: 700px;//this margin doesn't work on Illustrations.jsx due the INLINE fixed margin on the line 102 of index.js
@@ -120,11 +109,11 @@ export const ProjectsCard = styled(Box)`
         height: 40px;
         cursor: pointer;
         pointer-events: auto; 
-        @media(max-width: 600px){
-            top: 1rem;
+        @media(max-width: 380px){
+            width: 30px;
+            height: 30px;
+            top: 2rem;
             right: 1rem;
-            width: 25px;
-            height: 25px;
         }
     }
 
@@ -168,6 +157,7 @@ export const ProjectsCard = styled(Box)`
 
 export const ProjectsSection = styled(Container)` 
     .backgroundModal{
+        
     position: fixed;
     top: 0;
     right: 0;
@@ -188,3 +178,5 @@ export const ProjectsSection = styled(Container)`
         opacity: 1;
 
 }`
+
+

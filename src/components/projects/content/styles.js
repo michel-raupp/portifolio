@@ -140,10 +140,10 @@ export const Botoes = styled.div`
         text-decoration: none;
     }
     .wrapper {
-    display: flex;
-    gap: 10px;
-    justify-content: flex-start;
-    list-style: none;
+        display: flex;
+        gap: 10px;
+        justify-content: flex-start;
+        list-style: none;
 
         @media(max-width: 600px){
             gap: 4px;

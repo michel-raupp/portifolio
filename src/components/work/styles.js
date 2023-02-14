@@ -21,8 +21,8 @@ export const WorkContainer = styled(Container)`
     }
 
     @media(max-width: 900px){
-    padding: 0 30px;
-    align-items: center;
+        padding: 0 30px;
+        align-items: center;
         .container{
             flex-direction: column;
         }
