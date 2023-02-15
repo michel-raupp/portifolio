@@ -4,11 +4,15 @@ import { Sling as Hamburger } from 'hamburger-react'
 
 class Navbar extends Component {
     state = { clicked: false };
+    
     handleClick = () => {
         this.setState({ clicked: !this.state.clicked });
-    };
+    }; 
 
     render() {
+
+        const isOpen = this.state.clicked;
+
         return (
             <NavbarSection>
                 <Logo>Raupp</Logo>
@@ -41,7 +45,7 @@ class Navbar extends Component {
                     </Menu>
                 </div>
                 <div id="mobile" onClick={this.handleClick}>
-                    <Hamburger duration={0.8} />
+                    <Hamburger toggled={isOpen} duration={0.8} />
                 </div>
             </NavbarSection>
         );
