@@ -74,7 +74,7 @@ export const ReverseSection = styled(Section)`
 `
 
 export const HeaderSection = styled(ReverseSection)`
-    padding-top: 200px;
+    padding-top: 250px;
 
     @media (max-width: 1000px){
         padding-top: 170px;

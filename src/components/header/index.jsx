@@ -8,7 +8,6 @@ import { Coisas, HeaderSection} from "../../styles/styles";
 import profile1 from "../../assets/imgs/profile1.jpg"
 function Header() {
     return (
-        
         <HeaderSection id="home">
             <Coisas>
                 <Title>Michel Raupp</Title>

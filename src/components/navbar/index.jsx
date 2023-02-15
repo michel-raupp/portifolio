@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Logo, Menu, NavbarSection } from "./styles";
 import { Sling as Hamburger } from 'hamburger-react'
+import Scroll from "./scroll";
 
 class Navbar extends Component {
     state = { clicked: false };
@@ -14,6 +15,7 @@ class Navbar extends Component {
         const isOpen = this.state.clicked;
 
         return (
+            <>
             <NavbarSection>
                 <Logo>Raupp</Logo>
 
@@ -47,7 +49,9 @@ class Navbar extends Component {
                 <div id="mobile" onClick={this.handleClick}>
                     <Hamburger toggled={isOpen} duration={0.8} />
                 </div>
-            </NavbarSection>
+            </NavbarSection>    
+            <Scroll/>
+            </>
         );
     }
 }

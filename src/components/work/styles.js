@@ -8,10 +8,6 @@ export const WorkContainer = styled(Container)`
     .container{
         display: flex;
         gap: 50px;
-
-        @media(max-width: 500px){
-            gap: 0px;
-        }
     }
 
     .infos{
@@ -25,6 +21,7 @@ export const WorkContainer = styled(Container)`
         align-items: center;
         .container{
             flex-direction: column;
+            gap: 0px;
         }
         .infos{
             max-width: 500px;
@@ -48,7 +45,7 @@ export const WorkContainer = styled(Container)`
             color: ${Colors.darkGrey};    
         }
 
-        @media(max-width: 500px){
+        @media(max-width: 900px){
            display: none;
         } 
     }
@@ -87,7 +84,7 @@ export const WorkImg = styled(Column)`
         .titleV2{
                 display: none;
         }
-        @media(max-width: 500px){
+        @media(max-width: 900px){
             .titleV2{
                 display: flex;
                 flex-direction: column;

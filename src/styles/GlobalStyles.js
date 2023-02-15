@@ -20,7 +20,6 @@ const GlobalStyle = createGlobalStyle`
 	figure, figcaption, footer, header, hgroup, 
 	menu, nav, output, ruby, section, summary,
 	time, mark, audio, video {
-		
 		scroll-behavior: smooth;
 		margin: 0;
 		padding: 0;
@@ -62,6 +61,21 @@ const GlobalStyle = createGlobalStyle`
     }
 	a{
 		text-decoration: none;
+	}
+
+	::-webkit-scrollbar{
+    	width: 10px;	
+	}
+	::-webkit-scrollbar-track{
+		background: ${Colors.black};
+	}
+	::-webkit-scrollbar-thumb{
+		background: ${Colors.darkGrey};
+		border-radius: 2px;
+		transition: all 0.2s ease-in-out;
+	}
+	::-webkit-scrollbar-thumb:hover{
+		background: ${Colors.primary};
 	}
 `;
  

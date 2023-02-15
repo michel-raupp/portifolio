@@ -27,11 +27,9 @@ export const Button = styled(Container)`
 `
 
 export const Title = styled.h1`
-
     line-height: normal;
     font-size: ${FontSizes.giraffe};
     font-weight: 700;
-
     @media (max-width: 550px){
         font-size: 50px;
     }

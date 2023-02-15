@@ -64,7 +64,7 @@ export const ProjectsCard = styled(Box)`
     }
 
     .projectsModal{
-        overflow-y: scroll;
+        overflow-y: auto;
         position: fixed;
         inset: 0;
         z-index: 99;

@@ -33,7 +33,7 @@ const VisualDesign = () => {
         <div className='content'>
           <img className='preview' src={cf2} alt='' />
           <div className='info'>
-            <h3>2D Artist | Game Design</h3>
+            <h3>Game Design | Pixel Arts</h3>
             <p>I designed and illustrated sprites, scenaries, troops, NPCs and icons for Crypto Farms Land.
             </p>
             <Botoes>
