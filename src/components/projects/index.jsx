@@ -16,8 +16,6 @@ import Frontend from "./content/Frontend";
 import VisualDesign from "./content/VisualDesign";
 import Illustrations from "./content/Illustrations";
 
-//.projectsModal-content has a margin propertie, for a better responsiveness on mobile devices. But Illustrations component isn't affected by this margin because it already has a INLINE margin on the line 102 of index.js.
-
 const Projects = () => {
 
     const [toggleState, setToggleState] = useState(0);
@@ -96,7 +94,7 @@ const Projects = () => {
                                 View more
                                 <img src={arrow2} alt="" /></span>
                                 <div className={toggleState === 3 ? "projectsModal active-modal" : "projectsModal"}>
-                                    <div className="projectsModal-content" style={{ marginTop: "0" }}>
+                                    <div className="projectsModal-content">
                                         <img className="close-modal" src={close} alt="" onClick={() => toggleTab(0)} />
                                         <h3 className="projectsModal-title">Personal Illustrations</h3>
                                         <p className="projectsModal-description">Some drawings o' mine</p>

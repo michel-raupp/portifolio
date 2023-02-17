@@ -70,7 +70,7 @@ export const ProjectsCard = styled(Box)`
         z-index: 99;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         padding: 0.5rem;
         opacity: 0;
         visibility: hidden;
@@ -83,22 +83,16 @@ export const ProjectsCard = styled(Box)`
         background-color: ${Colors.white};
         padding: 2.5rem 3rem;
         border-radius: 20px;
-        /* width: min-content */
+        margin-top: 100px;
         pointer-events: auto; 
         transition: 0.5s ease-in-out;
         @media(max-width: 600px){
             padding: 2rem 2rem;
         }
         @media(max-width: 450px){
-            margin-top: 680px;//this margin doesn't work on Illustrations.jsx due the INLINE fixed margin on the line 102 of index.js
             padding: 2rem 1rem;
         }
-        @media(max-width: 430px){
-            margin-top: 700px;//this margin doesn't work on Illustrations.jsx due the INLINE fixed margin on the line 102 of index.js
-        }
-        @media(max-width: 380px){
-            margin-top: 680px;
-        }
+
     }
 
     .close-modal{
